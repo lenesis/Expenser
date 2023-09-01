@@ -1,5 +1,4 @@
 #Lenesis
-import api
 import os, sys
 #Check if required modules are installed
 try:
@@ -13,6 +12,7 @@ except ImportError:
         os.system('pip3 install tabulate docopt termcolor')
     else:
         os.system('pip install tabulate docopt termcolor')
+import api
 
 termcolor.cprint('''
 _______ ___   ___ .______    _______ .__   __.      _______. _______ .______      
